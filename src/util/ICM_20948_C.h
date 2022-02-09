@@ -75,7 +75,7 @@ extern int memcmp(const void *, const void *, size_t); // Avoid compiler warning
     ICM_20948_Internal_Gyr = (1 << 1),
     ICM_20948_Internal_Mag = (1 << 2),
     ICM_20948_Internal_Tmp = (1 << 3),
-    ICM_20948_Internal_Mst = (1 << 4), // I2C Master Ineternal
+    ICM_20948_Internal_Mst = (1 << 4), // I2C Master Internal
   } ICM_20948_InternalSensorID_bm;     // A bitmask of internal sensor IDs
 
   typedef union
